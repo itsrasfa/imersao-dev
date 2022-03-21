@@ -1,0 +1,77 @@
+body.light {
+  background-color: #F8f8f8;
+  color:#181818;
+}
+.light .projetos {
+border-radius: 5px;
+background-color: #ffffff;
+box-shadow: none;
+border: 2px solid #17171715;
+}
+.light .projetos:hover {
+  background-color: #ffffff;
+  border: none;
+}
+.light .social-link {
+ border-radius: 5px;
+ background-color: #ffffff;
+ box-shadow: none;
+ border: 2px solid #17171715;
+}
+.light i {
+color: #171717;
+}
+.light .social-link:hover {
+  background-color: #1a485521;
+  border: 2px solid #17171715;
+}
+.light a {
+  color: #171717;
+}
+.light .projeto-a {
+color: #F8f8f8;
+}
+.light footer {
+  box-shadow: inset 0 2px 0 #fff;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.label {
+  background-color: #000;
+  border-radius: 50px;
+  cursor:pointer;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  height: 35px;
+  width: 75px;
+  transform: scale(1.0);
+}
+.fa-moon {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+.fa-sun {
+  padding-right: 5px;
+}
+.label .btn {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 29.5px;
+  width: 29.5px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .btn {
+  transform: translateX(40px);
+}
+.fa-moon, .fa-sun {
+  font-size: 20px;
+}

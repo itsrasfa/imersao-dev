@@ -1,0 +1,36 @@
+.social {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.social p {
+  margin-top: 5px;
+}
+.social-link {
+  display: grid;
+  grid-template-columns: calc(4, 1fr);
+  width: 250px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(0, 0, 0, 0.22);
+}
+.social-link:hover {
+  background-color: #000000;
+  border: 1px solid #1A4855;
+}
+ i {
+  color: #F8f8f8;
+  font-size: 50px;
+}
+ i:hover {
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

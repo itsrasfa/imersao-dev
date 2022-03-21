@@ -1,0 +1,43 @@
+.header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu {
+ display: flex;
+ gap: 30px;
+}
+.menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+.menu a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  margin-top: 4px;
+  position: absolute;
+}
+.menu a:hover::after {
+  width: 100%;
+  transition: 0.3s;
+}
+.home {
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
+a {
+  color: #F8f8f8;
+  font: 500 1rem 'Montserrat', sans-serif;
+}
