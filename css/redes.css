@@ -11,14 +11,15 @@
 .social-link {
   display: grid;
   grid-template-columns: calc(4, 1fr);
-  width: 250px;
-  height: 150px;
+  width: 184px;
+  height: 149px;
+  padding: 20px 140px;
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4.8px);
   -webkit-backdrop-filter: blur(4.8px);
-  border: 1px solid rgba(0, 0, 0, 0.22);
+  border: 2px solid rgba(0, 0, 0, 0.22);
 }
 .social-link:hover {
   background-color: #000000;
