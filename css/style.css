@@ -24,3 +24,22 @@ body {
   margin: 0 auto;
   padding-top: 80px;
 }
+#back-to-top {
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  bottom: 15px;
+  left: 1450px;
+  background-color: black;
+  border-radius: 20px;
+  color: #F9f9f9;
+  transition: 0.3s;
+  z-index: 1;
+}
+#back-to-top i {
+  font-size: 20px;
+}
